@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/* =====================================END CSS RESET===================================== */
+
+
+html {
+box-sizing: border-box;
+font-size: 20px;
+background-image: 
+    url("\images\bg-pattern-top-mobile.svg")
+    url("\images\bg-pattern-bottom-mobile.svg") ;
+background-position: 0% 0%, 50% 50%;
+}
+
+body {
+background-color: beige;
+display: flex; 
+flex-direction: column;
+width: 95%;
+/* justify-content: space-evenly; */
+align-items: center;
+padding: 25px;
+}
+
+body .main-headline {
+    align-self: center;
+}
+
+.main-headline {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.five-star-all {
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 600px;
+}
+
+.five-star-1 {
+display: flex;
+align-items: center;
+}
+
+.five-star-2 {
+display: flex;
+align-items: center;
+}
+
+.five-star-3 {
+display: flex;
+align-items: center;
+}
+
+.testimonial-1 {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.testimonial-2 {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.testimonial-3 {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.testimonial-name {
+display: flex;
+align-items: center;
+}
+
+.testimonial-verified {
+display: flex;
+align-items: center;
+}
+
+.testimonial-body {
+display: flex;
+align-items: center;
+}
+
+/* .attribution {
+display: flex;
+align-items: center;
+} */
+
+/* ======media queries====== */
+
+@media (min-width: 768px)
+{
+    html {
+        background-image: 
+            url("\images\bg-pattern-top-desktop.svg")
+            url("\images\bg-pattern-bottom-desktop.svg") ;
+background-position: 0% 0%, 50% 50%;
+    }
+    body {
+        background-color: rgb(131, 131, 131);
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 95%;
+    }
+    .main-headline {
+        /* padding: 200px; */
+    }
+    .five-star-all {
+        /* padding: 200px; */
+    }
+}
+
+* {border: 1px solid red}
+
+/* * {
+    border: 2px solid black;
+} */
