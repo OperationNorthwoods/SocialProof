@@ -81,7 +81,7 @@ align-items: left;
 flex-direction: column;
 margin: 5px 5px;
 /* line-height: 50px; */
-width: 47.5%;
+width: 53.5%;
 }
 
 .main-headline h1 {
@@ -98,8 +98,9 @@ color: grey;
 .five-star-all {
 display: flex;
 align-items: left;
-flex-direction: column;
-width: 47.5%;
+flex-direction: row;
+flex-wrap: wrap;
+width: 40%;
 color: hsl(300, 43%, 22%);
 font-weight: 600;
 }
@@ -132,9 +133,17 @@ border: 1px solid hsl(303, 10%, 53%);
 border-radius: 10px;
 padding: 10px;
 margin: 5px 0px;
+width: 40%;
 }
 
-.testimonial-all {
+.main-headline-and-five-star-all {
+    display: flex;
+    flex-direction: row;
+width: 100%;
+/* height: 50%; WONT WORK  */
+}
+
+.testimonials-all {
 display: flex;
 flex-direction: row;
 width: 100%;
