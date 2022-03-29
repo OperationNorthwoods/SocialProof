@@ -88,6 +88,8 @@ width: 53.5%;
 margin: 0px 0px;
 color: hsl(300, 43%, 22%);
 font-weight: 700;
+font-size: 30px;
+/* line-height: 2em; lol this looks dum*/
 }
 
 .main-headline p {
