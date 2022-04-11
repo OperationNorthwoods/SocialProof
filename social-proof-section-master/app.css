@@ -58,6 +58,7 @@ background-image:
 background-position: 0% 0%, 50% 50%;
 font-family: 'Spartan', sans-serif;
 font-size: 15px;
+height: 100%;
 }
 
 body {
@@ -88,7 +89,7 @@ width: 53.5%;
 margin: 0px 0px;
 color: hsl(300, 43%, 22%);
 font-weight: 700;
-font-size: 30px;
+font-size: 50px;
 /* line-height: 2em; lol this looks dum*/
 }
 
@@ -100,55 +101,59 @@ color: grey;
 .five-star-all {
 display: flex;
 align-items: left;
-flex-direction: row;
+flex-direction: column;
 flex-wrap: wrap;
 width: 40%;
 color: hsl(300, 43%, 22%);
 font-weight: 600;
+justify-content: center;
 }
 
 .five-star-1 {
 display: flex;
 align-items: left;
-background-color: hsl(303, 10%, 53%);
-border: 1px solid hsl(303, 10%, 53%);
+background-color: hsl(300, 24%, 96%);
+border: 1px solid hsl(300, 24%, 96%);
 border-radius: 10px;
-padding: 10px;
-margin: 5px 0px;
+padding: 20px;
+margin: 10px 50px 10px 50px;
+width: 70%;
 }
 
 .five-star-2 {
 display: flex;
 align-items: left;
-background-color: hsl(303, 10%, 53%);
-border: 1px solid hsl(303, 10%, 53%);
+background-color: hsl(300, 24%, 96%);
+border: 1px solid hsl(300, 24%, 96%);
 border-radius: 10px;
-padding: 10px;
-margin: 5px 0px;
+padding: 20px;
+margin: 10px 100px 10px 100px;
+width: 70%;
 }
 
 .five-star-3 {
 display: flex;
 align-items: left;
-background-color: hsl(303, 10%, 53%);
-border: 1px solid hsl(303, 10%, 53%);
+background-color: hsl(300, 24%, 96%);
+border: 1px solid hsl(300, 24%, 96%);
 border-radius: 10px;
-padding: 10px;
-margin: 5px 0px;
-width: 40%;
+padding: 20px;
+margin: 10px 100px 10px 150px;
+width: 70%;
 }
 
 .main-headline-and-five-star-all {
     display: flex;
     flex-direction: row;
 width: 100%;
-/* height: 50%; WONT WORK  */
+height: 47%;
 }
 
 .testimonials-all {
 display: flex;
 flex-direction: row;
 width: 100%;
+height: 47%;
 }
 
 .testimonial-1 {
@@ -157,7 +162,7 @@ align-items: center;
 flex-direction: column;
 width: 325px;
 padding: 25px 25px;
-margin: 0px 25px;
+margin: 50px 25px 150px;
 background-color: hsl(300, 43%, 22%);
 border: 1px solid hsl(300, 43%, 22%);
 border-radius: 10px;
@@ -171,7 +176,7 @@ align-items: center;
 flex-direction: column;
 width: 325px;
 padding: 25px 25px;
-margin: 0px 25px;
+margin: 100px 25px 100px;
 background-color: hsl(300, 43%, 22%);
 border: 1px solid hsl(300, 43%, 22%);
 border-radius: 10px;
@@ -184,7 +189,7 @@ align-items: center;
 flex-direction: column;
 width: 325px;
 padding: 25px 25px;
-margin: 0px 25px;
+margin: 150px 25px 50px;
 background-color: hsl(300, 43%, 22%);
 border: 1px solid hsl(300, 43%, 22%);
 border-radius: 10px;
@@ -244,7 +249,7 @@ background-position: 0% 0%, 50% 50%;
     }
 }
 
-* {border: 1px solid red}
+/* * {border: 1px solid red} */
 
 /* * {
     border: 2px solid black;
